@@ -1,0 +1,103 @@
+.video-card-item {
+  list-style-type: none;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .video-card-item {
+    width: 50%;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video-card-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .video-card-item {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .video-card-item {
+    width: 25%;
+    padding: 10px;
+  }
+}
+
+.thumbnail-image {
+  width: 100%;
+  margin-bottom: 8px;
+  max-height: 170px;
+}
+
+.video-description-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.channel-profile-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+}
+
+.video-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 0;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.video-title.dark {
+  color: #f9f9f9;
+}
+
+.video-title.light {
+  color: #212121;
+}
+
+.channel-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #94a3b8;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.views-and-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 0;
+}
+
+.views-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #94a3b8;
+  margin-top: 0;
+}
+
+.dot-icon {
+  width: 20px;
+  height: 20px;
+  color: #94a3b8;
+  margin-right: 5px;
+  margin-left: 5px;
+}

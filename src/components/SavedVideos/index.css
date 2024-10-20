@@ -1,0 +1,141 @@
+.saved-videos-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .saved-videos-body-container {
+    flex-direction: row;
+  }
+}
+
+.saved-videos-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+}
+
+.saved-videos-container.dark {
+  background-color: #0f0f0f;
+}
+
+@media screen and (min-width: 768px) {
+  .saved-videos-container {
+    width: 75%;
+    flex-grow: 1;
+  }
+}
+
+.no-search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-search-results-container {
+    margin-top: 35px;
+  }
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 350px;
+}
+
+.not-found-head {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.not-found-head.dark {
+  color: #f9f9f9;
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.saved-videos-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .saved-videos-list-container {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .saved-videos-list-container {
+    padding: 20px;
+  }
+}
+
+.saved-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+}
+
+.saved-heading-container.dark {
+  background-color: #231f20;
+}
+
+.saved-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: #e2e8f0;
+}
+
+.saved-icon.dark {
+  background-color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .saved-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+.saved-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+}
+
+.saved-heading.dark {
+  color: #f9f9f9;
+}
+
+@media screen and (min-width: 768px) {
+  .saved-heading {
+    font-size: 38px;
+  }
+}

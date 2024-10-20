@@ -1,0 +1,148 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  padding: 20px 10px;
+}
+
+.banner-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-image {
+  width: 100px;
+}
+
+.banner-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 320px;
+}
+
+.banner-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.banner-button {
+  width: 120px;
+  height: 35px;
+  border: 1px solid #212121;
+  background-color: transparent;
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+/* Search Input */
+.search-input-container {
+  display: flex;
+  width: 90%;
+  max-width: 450px;
+  align-items: center;
+  border: 1px solid #475569;
+  margin-top: 15px;
+}
+
+.search-input-container.dark {
+  background-color: #181818;
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 8px;
+  flex-grow: 1;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Loader */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* No Search Results */
+.no-search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-image {
+  width: 300px;
+  height: 300px;
+}
+
+.not-found-head {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.not-found-head.dark {
+  color: #f9f9f9;
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+
+.not-found-button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.body-container.dark {
+  background-color: #0f0f0f;
+}
+
+.home-container {
+  display: flex;
+}

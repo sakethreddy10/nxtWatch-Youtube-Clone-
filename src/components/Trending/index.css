@@ -1,0 +1,202 @@
+.gaming-body-container,
+.trending-body-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.trending-videos-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.games-container.dark,
+.trending-videos-container.dark {
+  background-color: #0f0f0f;
+}
+
+@media screen and (max-width: 768px) {
+  .gaming-body-container,
+  .trending-body-container {
+    flex-direction: column;
+  }
+}
+
+.trending-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-body-container {
+    flex-direction: row;
+  }
+}
+
+.trending-videos-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.trending-videos-container.dark {
+  background-color: #0f0f0f;
+}
+
+.trending-videos-container.light {
+  background-color: #f9f9f9;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-videos-container {
+    width: 75%;
+    flex-grow: 1;
+  }
+}
+
+.trending-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.trending-heading-container.dark {
+  background-color: #231f20;
+}
+
+.trending-heading-container.light {
+  background-color: #f1f1f1;
+}
+
+.trending-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+.trending-icon.dark {
+  background-color: #000000;
+}
+
+.trending-icon.light {
+  background-color: #e2e8f0;
+}
+
+.trending-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-heading {
+    font-size: 38px;
+  }
+}
+
+.trending-heading.dark {
+  color: #f9f9f9;
+}
+
+.trending-heading.light {
+  color: #000000;
+}
+
+.trending-videos-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .trending-videos-list {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .trending-videos-list {
+    padding-left: 25px;
+  }
+}
+
+.no-search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-search-results-container {
+    margin-top: 35px;
+  }
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 350px;
+}
+
+.not-found-head {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.not-found-head.dark {
+  color: #f9f9f9;
+}
+
+.not-found-head.light {
+  color: #000000;
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.retry-button {
+  width: 110px;
+  height: 33px;
+  background-color: #4f46e5;
+  border: none;
+  color: #f9f9f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
