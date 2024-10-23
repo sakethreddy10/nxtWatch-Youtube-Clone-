@@ -1,0 +1,148 @@
+.navbar {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-dark {
+  background-color: #212121;
+}
+
+.navbar-light {
+  background-color: #f9f9f9;
+}
+
+.nav-logo {
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logo {
+    width: 120px;
+  }
+}
+
+.nav-icons-mobile,
+.nav-icons-desktop {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-icons-desktop {
+  display: none;
+}
+
+.nav-icon-item {
+  list-style-type: none;
+  margin-left: 18px;
+}
+
+.theme-button,
+.popup-mobile-close-button,
+.popup-close-button,
+.popup-confirm-button,
+.logout-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.logout-button {
+  width: 110px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #3b82f6;
+  border: solid 1px #3b82f6;
+}
+
+.logout-button.dark {
+  color: #f9f9f9;
+  border: solid 1px #f9f9f9;
+}
+
+.popup-logout-container,
+.popup-mobile-container {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.popup-logout-container.dark,
+.popup-mobile-container.dark {
+  background-color: #231f20;
+  color: #ffffff;
+}
+
+.popup-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-confirm-button {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-icons-desktop {
+    display: none;
+  }
+
+  .nav-icons-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-icons-desktop {
+    display: flex;
+  }
+
+  .nav-icons-mobile {
+    display: none;
+  }
+}
+
+.popup-mobile-list {
+  padding-left: 0;
+}
+
+.popup-mobile-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.popup-mobile-item p {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #424242;
+}
+
+.popup-mobile-item.active p {
+  color: #ff0b37;
+}
+
+.popup-mobile-close-button {
+  float: right;
+}

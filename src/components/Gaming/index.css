@@ -1,0 +1,175 @@
+.gaming-body-container,
+.trending-body-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .gaming-body-container {
+    flex-direction: row;
+  }
+}
+
+.games-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  margin-top: 0px;
+}
+
+.games-container.dark {
+  background-color: #0f0f0f;
+}
+
+@media screen and (min-width: 768px) {
+  .games-container {
+    width: 75%;
+    flex-grow: 1;
+  }
+}
+
+.games-container,
+.trending-videos-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.games-container.dark,
+.trending-videos-container.dark {
+  background-color: #0f0f0f;
+}
+
+@media screen and (max-width: 768px) {
+  .gaming-body-container,
+  .trending-body-container {
+    flex-direction: column;
+  }
+}
+
+.games-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+}
+
+.games-heading-container.dark {
+  background-color: #231f20;
+}
+
+.games-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background-color: #e2e8f0;
+}
+
+.games-icon.dark {
+  background-color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .games-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}
+
+.games-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+
+.games-heading.dark {
+  color: #f9f9f9;
+}
+
+@media screen and (min-width: 768px) {
+  .games-heading {
+    font-size: 40px;
+  }
+}
+
+.games-list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.no-search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-search-results-container {
+    margin-top: 35px;
+  }
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 350px;
+}
+
+.not-found-head {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.not-found-head.dark {
+  color: #f9f9f9;
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.not-found-button {
+  width: 110px;
+  height: 33px;
+  background-color: #4f46e5;
+  border: none;
+  color: #f9f9f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}

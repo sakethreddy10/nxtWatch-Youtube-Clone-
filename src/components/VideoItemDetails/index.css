@@ -1,0 +1,244 @@
+.video-details-body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-body-container {
+    flex-direction: row;
+  }
+}
+
+.video-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: var(--background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-container {
+    width: 75%;
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+}
+
+.video-player-container {
+  width: 100%;
+  max-width: 1000px;
+  height: 300px;
+}
+
+@media screen and (min-width: 576px) {
+  .video-player-container {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video-player-container {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .video-player-container {
+    height: 500px;
+  }
+}
+
+.video-details-title {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 30px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .video-details-title {
+    font-size: 22px;
+  }
+}
+
+.views-and-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.views-text {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 15px;
+  color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .views-text {
+    font-size: 18px;
+  }
+}
+
+.no-search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-search-results-container {
+    margin-top: 35px;
+  }
+}
+
+.not-found-image {
+  width: 80%;
+  max-width: 350px;
+}
+
+.not-found-head {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: var(--heading-color);
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.not-found-button {
+  width: 110px;
+  height: 33px;
+  background-color: #4f46e5;
+  border: none;
+  color: #f9f9f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.like-and-views-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+  .like-and-views-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.like-dislike-save-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.horizontal-line {
+  width: 100%;
+  border: #e2e8f0 solid 1px;
+}
+
+.video-text-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .video-text-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.channel-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .channel-image {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.channel-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: var(--text-color);
+}
+
+.channel-subscribers {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  color: #94a3b8;
+  margin-top: 0px;
+}
+
+.channel-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--description-color);
+}
+
+.like-button,
+.save-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--icon-color);
+}
+
+.like-button.active,
+.save-button.active {
+  color: #2563eb;
+}

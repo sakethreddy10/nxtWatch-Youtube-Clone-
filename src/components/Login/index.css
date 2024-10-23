@@ -1,0 +1,78 @@
+.container-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-element {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f9f9;
+  align-items: center;
+  padding: 22px;
+  margin: 12px;
+  margin-top: 40px;
+}
+
+.lh {
+  text-align: center;
+  font-size: 28px;
+  padding: 6px;
+  margin: 8px;
+  color: #000000;
+}
+.form-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 28px;
+  margin: 12px;
+}
+
+.h {
+  font-size: 28px;
+  color: #000000;
+}
+
+.input-element {
+  height: 25px;
+  width: 180px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.c {
+  height: 12px;
+  width: 14px;
+}
+
+.b {
+  height: 40px;
+  width: 160px;
+  text-align: center;
+  background-color: blue;
+  padding: 12px;
+  margin: 12px;
+  color: #ffffff;
+  border-radius: 12px;
+  border-width: 0px;
+}
+
+.s {
+  font-size: 16px;
+  color: brown;
+}
+
+.z {
+  display: flex;
+  flex-direction: row;
+}
